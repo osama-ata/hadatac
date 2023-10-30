@@ -105,7 +105,6 @@ services:
             - "/var/run/docker.sock:/var/run/docker.sock"
             - "/var/log/hadatac_shinyproxy/server:/log"
             - "/var/log/hadatac_shinyproxy/container:/container-logs"
-            - "./shinyproxy/application.yml:/opt/shinyproxy/application.yml"
             - "./shinyproxy/fragments:/opt/shinyproxy/fragments"
 
 volumes:
